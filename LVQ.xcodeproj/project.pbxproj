@@ -1,0 +1,211 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC761C41159917DB00D60445 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = AC761C40159917DB00D60445 /* main.c */; };
+		AC761C43159917DB00D60445 /* LVQ.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = AC761C42159917DB00D60445 /* LVQ.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AC761C3A159917DB00D60445 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				AC761C43159917DB00D60445 /* LVQ.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AC761C3C159917DB00D60445 /* LVQ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LVQ; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC761C40159917DB00D60445 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		AC761C42159917DB00D60445 /* LVQ.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = LVQ.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC761C39159917DB00D60445 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC761C31159917DA00D60445 = {
+			isa = PBXGroup;
+			children = (
+				AC761C3F159917DB00D60445 /* LVQ */,
+				AC761C3D159917DB00D60445 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC761C3D159917DB00D60445 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC761C3C159917DB00D60445 /* LVQ */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC761C3F159917DB00D60445 /* LVQ */ = {
+			isa = PBXGroup;
+			children = (
+				AC761C40159917DB00D60445 /* main.c */,
+				AC761C42159917DB00D60445 /* LVQ.1 */,
+			);
+			path = LVQ;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC761C3B159917DB00D60445 /* LVQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC761C46159917DB00D60445 /* Build configuration list for PBXNativeTarget "LVQ" */;
+			buildPhases = (
+				AC761C38159917DB00D60445 /* Sources */,
+				AC761C39159917DB00D60445 /* Frameworks */,
+				AC761C3A159917DB00D60445 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LVQ;
+			productName = LVQ;
+			productReference = AC761C3C159917DB00D60445 /* LVQ */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC761C33159917DA00D60445 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Partec;
+			};
+			buildConfigurationList = AC761C36159917DA00D60445 /* Build configuration list for PBXProject "LVQ" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AC761C31159917DA00D60445;
+			productRefGroup = AC761C3D159917DB00D60445 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC761C3B159917DB00D60445 /* LVQ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC761C38159917DB00D60445 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC761C41159917DB00D60445 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AC761C44159917DB00D60445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AC761C45159917DB00D60445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AC761C47159917DB00D60445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC761C48159917DB00D60445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC761C36159917DA00D60445 /* Build configuration list for PBXProject "LVQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC761C44159917DB00D60445 /* Debug */,
+				AC761C45159917DB00D60445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC761C46159917DB00D60445 /* Build configuration list for PBXNativeTarget "LVQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC761C47159917DB00D60445 /* Debug */,
+				AC761C48159917DB00D60445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC761C33159917DA00D60445 /* Project object */;
+}
