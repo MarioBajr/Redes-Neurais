@@ -12,8 +12,8 @@
 
 int main(int argc, const char * argv[])
 {
-//	char current_path[100] = "/Users/Mario/Documents/workspaces/mestrado workspace/workspace/LVQ/LVQ/data/";
-	char current_path[100] = "/Users/Mario/Documents/workspaces/mestrado workspace/workspace/LVQ/LVQ/data/testing/";
+	char current_path[100] = "/Users/Mario/Documents/workspaces/mestrado workspace/workspace/LVQ/LVQ/data/";
+//	char current_path[100] = "/Users/Mario/Documents/workspaces/mestrado workspace/workspace/LVQ/LVQ/data/testing/";
 	
 	char net[300];
 	strcpy(net, current_path);
@@ -35,7 +35,7 @@ int main(int argc, const char * argv[])
 	strcpy(output, current_path);
 	strcat(output, "output.dat");
 	
-	lvq(TASK_LEARNING, net, train, weights);//Train
+//	lvq(TASK_LEARNING, net, train, weights);//Train
 	lvq(TASK_OUTPUT, weights, test, output);//Test
 	
 	return 0;

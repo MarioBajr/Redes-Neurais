@@ -199,6 +199,7 @@ FILE *in, *data;
 	{		
 		fscanf(in, "%d\n", &p->indim);
 		fscanf(in, "%d %d\n", &p->num_nodes, &p->num_classes);
+		fscanf(data, "%d\n", &p->num_inputs);
 	}
 	
 	if( p->num_classes > p->num_nodes )
