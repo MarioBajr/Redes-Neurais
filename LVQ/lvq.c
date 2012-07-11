@@ -196,10 +196,10 @@ FILE *in, *data;
 		fscanf(in, "%d\n", &p->num_nodes);
 	}
 	else
-	{
+	{		
 		fscanf(in, "%d\n", &p->indim);
 		fscanf(in, "%d %d\n", &p->num_nodes, &p->num_classes);
-	}	
+	}
 	
 	if( p->num_classes > p->num_nodes )
 	{
@@ -292,6 +292,8 @@ FILE *out;
 			fprintf(out, "%lf ",p->nodes[i].weight[j]);
 	    fprintf(out, "%d \n",p->nodes[i].class);
 	}
+	
+	fclose(out);
 }
 
 /* Write the data, with the derived classes, to the file out */
@@ -313,6 +315,8 @@ FILE *out;
 	double correct_rate = tp / (double)p->num_inputs;
 	printf("Correct Rate: (%d/%d) %lf%%\n", tp, p->num_inputs, correct_rate*100);
 	fprintf(out, "%lf", correct_rate);
+	
+	fclose(out);
 }
 
 #pragma mark - LVQ Logic

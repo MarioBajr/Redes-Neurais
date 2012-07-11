@@ -12,7 +12,8 @@
 
 int main(int argc, const char * argv[])
 {
-	char current_path[100] = "/Users/Mario/Documents/workspaces/mestrado workspace/workspace/LVQ/LVQ/data/";
+//	char current_path[100] = "/Users/Mario/Documents/workspaces/mestrado workspace/workspace/LVQ/LVQ/data/";
+	char current_path[100] = "/Users/Mario/Documents/workspaces/mestrado workspace/workspace/LVQ/LVQ/data/testing/";
 	
 	char net[300];
 	strcpy(net, current_path);
