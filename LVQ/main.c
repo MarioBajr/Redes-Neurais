@@ -34,8 +34,8 @@ int main(int argc, const char * argv[])
 	strcpy(output, current_path);
 	strcat(output, "output.dat");
 	
-	lvq(TASK_LEARNING, net, train, weights);
-	lvq(TASK_OUTPUT, weights, test, output);
+	lvq(TASK_LEARNING, net, train, weights);//Train
+	lvq(TASK_OUTPUT, weights, test, output);//Test
 	
 	return 0;
 }
