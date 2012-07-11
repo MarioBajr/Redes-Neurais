@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		AC761C41159917DB00D60445 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = AC761C40159917DB00D60445 /* main.c */; };
 		AC761C43159917DB00D60445 /* LVQ.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = AC761C42159917DB00D60445 /* LVQ.1 */; };
-		AC761C4C15991B8300D60445 /* LVQ1Algorithm.c in Sources */ = {isa = PBXBuildFile; fileRef = AC761C4B15991B8300D60445 /* LVQ1Algorithm.c */; };
 		AC953128159AADF4002E2CFF /* lvq.c in Sources */ = {isa = PBXBuildFile; fileRef = AC953127159AADF4002E2CFF /* lvq.c */; };
 /* End PBXBuildFile section */
 
@@ -30,7 +29,6 @@
 		AC761C3C159917DB00D60445 /* LVQ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LVQ; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC761C40159917DB00D60445 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		AC761C42159917DB00D60445 /* LVQ.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = LVQ.1; sourceTree = "<group>"; };
-		AC761C4B15991B8300D60445 /* LVQ1Algorithm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LVQ1Algorithm.c; sourceTree = "<group>"; };
 		AC953127159AADF4002E2CFF /* lvq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lvq.c; sourceTree = "<group>"; };
 		AC95312A159AC63B002E2CFF /* lvq.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lvq.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,7 +65,6 @@
 			children = (
 				AC761C40159917DB00D60445 /* main.c */,
 				AC761C42159917DB00D60445 /* LVQ.1 */,
-				AC761C4B15991B8300D60445 /* LVQ1Algorithm.c */,
 				AC953127159AADF4002E2CFF /* lvq.c */,
 				AC95312A159AC63B002E2CFF /* lvq.h */,
 			);
@@ -126,7 +123,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC761C41159917DB00D60445 /* main.c in Sources */,
-				AC761C4C15991B8300D60445 /* LVQ1Algorithm.c in Sources */,
 				AC953128159AADF4002E2CFF /* lvq.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
