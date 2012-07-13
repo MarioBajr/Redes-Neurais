@@ -368,7 +368,7 @@ struct Network *p;
 	for( i=0; i<p->num_classes-1; i++)
 	{   
 		x = p->num_nodes * classes[i] / (double)p->num_inputs;
-	    number = (x == (int)x) ? (int)x : (int)(x+1) ;
+		number = (int)ceil(x);
 	    while( number > 0 )
 	    {	
 			p->nodes[j].class = class_nums[i];

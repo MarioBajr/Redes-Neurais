@@ -13,6 +13,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <limits.h>
+#include <math.h>
 
 #define TASK_LEARNING	1
 #define TASK_OUTPUT		2
